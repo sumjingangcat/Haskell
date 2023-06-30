@@ -30,3 +30,14 @@ g x = (x + 1) ** 2
 -- f x = x**2 : general definition
 -- f = \x -> x**2 : lambda function definition
 
+-- Exercise2
+yRock30 :: Double -> Double
+yRock30 t = 30 - (1/2) * 9.8 * t ** 2
+
+vRock30 :: Double -> Double
+vRock30 t = 30 - 9.8 * t
+
+sinDeg :: Double -> Double
+sinDeg deg = sin ((pi / 180) * deg)
+
+-- equation needed
